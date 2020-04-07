@@ -13,22 +13,20 @@
       <p>Crie mensagens cifradas e faça uma gincana de caça ao tesouro com as crianças, <br> esconda as pistas e coloque uma fórmula matemática junto para descobrir a chave.</p>
     </header>
 
-    <img src="img/nuvem.png" alt="nuvem" class="nuvem">
-
     <main class="main">
       <form action="">
         <div class="message">
-          <input type="text" placeholder="Insira aqui sua mensagem" name="text" id="message">
+          <textarea id="message" placeholder="Insira sua mensagem aqui"></textarea>
         </div>
         <div class="key">
           <input type="number" min="0" placeholder="Insira aqui a chave" id="key">
         </div>
         <div class="buttons"> 
-          <button onclick="cifrar()">Cifrar</button>
-          <button onclick="decifrar()">Decifrar</button>
+          <button id="encodeButton">Cifrar</button>
+          <button id="decodeButton">Decifrar</button>
         </div>
         <div class="finalMessage">
-          <div id="finalMessage"> </div>
+          <div id="finalMessage">Sua mensagem</div>
         </div>        
       </form>
     </main>

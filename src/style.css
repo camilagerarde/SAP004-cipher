@@ -1,28 +1,29 @@
 .finalMessage {
-    border: grey 3px;
+    border: #808080 3px;
     border-radius:6px;
     width: 500px;
     height: 200px;
-    background-color: white;
+    background-color: #FFFFFF ;
     font-size: 20px;
     text-align: center;
     padding: 3px;
     margin: 10px;
-    color: gray;
+    color: #484848;
+    font-family: "Lucida Console", Monaco, monospace;
   }
 
 body {
-    background-color: darkcyan;
+    background-color: #1c94ba;
   }
 
 .main {
     justify-content: center;
     display: flex;
-    background-color:gray;
+    background-color: #808080;
     margin: 5% 28% ;
     padding: 15px;
     border-radius: 7px;
-    border: darkslategrey groove 5px;
+    border: #484848 groove 5px;
     clear: left right;
 }
 
@@ -34,11 +35,13 @@ body {
     font-size: 20px;
     text-align: center;
     margin: 10px;
+    color: #484848;
+    font-family: "Lucida Console", Monaco, monospace;
 }
 
 #key{
     border-radius:6px;
-    border: grey 3px;
+    border: #808080 3px;
     text-align: center;
     margin: 10px;
     width: auto;
@@ -48,14 +51,14 @@ body {
 
 #buttons {
     border-radius:6px;
-    border: grey 3px;
+    border: #808080 3px;
     margin: 10px;
 }
 
 h1 {
     text-align: center;
     font-size: 60px;
-    color: white;
+    color: #FFFFFF;
     font-family: 'FontGame' ;
 }
 
@@ -69,31 +72,24 @@ body {
 img{
     width: 250px;
     height: 250px;
-    clear: right;
 }
 
 button {
     margin-left: 15px;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 5px;
-    color: darkslategrey;
+    color: #484848;
+    font-family: "Lucida Console", Monaco, monospace;
 }
 
 p{
-    font-size: 25px;
-    color: floralwhite;
+    font-size: 23px;
+    color: #FFFFFF;
     text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
 }
 
 @font-face {
     font-family: 'FontGame';
     src: url('fonte/Gameplay.ttf')  format('truetype');
-}
-
-.nuvem {
-    position: absolute;
-    right: 0;
-    top: 120px;
-    z-index: 0;
-    display: flex;
 }
