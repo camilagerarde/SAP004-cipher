@@ -27,10 +27,7 @@ function encode (offset, message) {
 
 //Função de decifragem
 function decode (offset, message) {
-  if (typeof message !== "string"){
-    throw TypeError();
-  }
-
+  
   let messageDecode = "";
 
   for (let i = 0; i < message.length; i++) {
