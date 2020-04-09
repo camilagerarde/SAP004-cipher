@@ -45,23 +45,6 @@ p {
     justify-content: center;
 }
 
-img {
-    max-height: 200px;
-    width: auto;
-    height: auto;
-    margin: auto 40px;
-}
-
-.imgTree {
-    align-self: flex-end;
-    margin-bottom: 0px;
-}
-
-.imgHouse {
-    align-self: flex-end;
-    margin-bottom: 0px;
-}
-
 form {
     display: flex;
     background-color: #808080;
@@ -101,6 +84,23 @@ button {
     color: #484848;
     font-family: "Lucida Console", Monaco, monospace;
     margin: 4px;
+}
+
+img {
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    margin: auto 40px;
+}
+
+.imgTree {
+    align-self: flex-end;
+    margin-bottom: 0px;
+}
+
+.imgHouse {
+    align-self: flex-end;
+    margin-bottom: 0px;
 }
 
 footer {
