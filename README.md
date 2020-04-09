@@ -58,9 +58,4 @@ A lógica do projeto foi implementada inteiramente em _JavaScript_, usando funç
 Também foi executado testes unitários para verificação da funcionalidade e padrão.
 Utilizado também Node.js, Git e GitHub.
 
-Feito por [Camila Cunha](https://github.com/camilagerarde)
-Fonte: Gameplay 1987 [Geronimo Font Studios](https://www.dafont.com/pt/paradox-fontworks.d5233?)
-Imagens
-Árvore: [Monkik](https://www.flaticon.com/br/autores/monkik)
-Casa: [Freepik](https://www.flaticon.com/br/autores/freepik) 
-Favicon: [Smashicons](https://www.flaticon.com/br/autores/smashicons) 
+**Feito por [Camila Cunha](https://github.com/camilagerarde)**
