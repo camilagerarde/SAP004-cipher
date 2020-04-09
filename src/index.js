@@ -1,5 +1,6 @@
 import cipher from './cipher.js';
 
+//Botões
 const encode = document.getElementById("encodeButton");
 const decode = document.getElementById("decodeButton");
 
