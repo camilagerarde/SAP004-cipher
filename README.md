@@ -1,9 +1,9 @@
-# Quarentena dos Tesouros
+Quarentena dos Tesouros
 
 ## Projeto
 
-Quarentena dos Tesouros nasceu de uma necessidade de distração e atividades para pais ou responsaveis de crianças, que estão
-em siãtuaço de confinamento devido a pandemia do Covid-19, vem como uma ferramenta para uma caça ao tesouro, onde as pistas são cifradas pelo metodo de Cifra de César, deixando a brincadeira ainda mais desafiadora.
+Quarentena dos Tesouros nasceu de uma necessidade de distração e atividades para pais ou responsáveis de crianças, que estão
+em situação de confinamento devido a pandemia do Covid-19, vem como uma ferramenta para uma caça ao tesouro, onde as pistas são cifradas pelo método de Cifra de César, deixando a brincadeira ainda mais desafiadora.
 
 #### Como utilizar:
 O usuário insere a pista no campo de mensagem e define o número de deslocamentos, e insere no campo da chave, clicando em CIFRAR a mensagem cifrada irá aparecer na caixa de texto logo abaixo, ele então pode copiar a pista cifrada num papel e como sugestão juntar uma questão matemática para que a criança também tenha que conseguir a chave para a decifragem, a criança então acessa a página e repete os passos anteriores, inserindo a pista cifrada no campo de mensagem e a chave no campo correspondente, porém ela deve clicar no botão DECIFRAR e logo abaixo a mensagem decifrada aparecerá, seguindo assim para a próxima pista até o tesouro no final. 
@@ -11,7 +11,7 @@ O usuário insere a pista no campo de mensagem e define o número de deslocament
 Para acessar clique aqui.
 
 ### Sobre a página
-A página se chama Quarentena dos Tesouros em referência a situação de confinamento que a população do Brasil e muitos lugares no mundo vem passando, e se junta ao objetivo da aplicação que é uma ferramenta para uma brincadeira de caça ao tesouro com as crinças.
+A página se chama Quarentena dos Tesouros em referência a situação de confinamento que a população do Brasil e muitos lugares no mundo vem passando, e se junta ao objetivo da aplicação que é uma ferramenta para uma brincadeira de caça ao tesouro com as crianças.
 
 A escolha das cores, visual, fonte e imagens fazem referência a video games e tem o objetivo de ser lúdico e atrativo para as crianças, sua usabilidade é simples e básica exatamente para que tantos as crianças como os pais consigam acessar e utilizar a ferramenta sem dificuldades.
 
@@ -33,13 +33,13 @@ batalha.
 
 A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um
 tipo de cifra por substituição, em que cada letra do texto original é
-substituida por outra que se encontra há um número fixo de posições
+substituída por outra que se encontra há um número fixo de posições
 (deslocamento) mais a frente do mesmo alfabeto.
 
 Por exemplo se usarmos o deslocamento (_chave_) de 3 posições:
 
 * Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto com cifra:  D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+* Alfabeto com cifra: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 * A letra A será D
 * A palavra CASA será FDVD
 
