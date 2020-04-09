@@ -7,12 +7,12 @@ Quarentena dos Tesouros nasceu de uma necessidade de distração e atividades pa
 ### Como utilizar:
 O usuário insere a pista no **campo de mensagem**, define o número de deslocamentos, e insere no **campo da chave**, clicando em **CIFRAR** a mensagem cifrada irá aparecer na caixa de texto logo abaixo, ele então pode copiar a pista cifrada num papel e como sugestão pode também juntar uma questão matemática para que a criança tenha que conseguir a chave para a decifragem, a criança então acessa a página e repete os passos anteriores, inserindo a pista cifrada no campo de mensagem e a chave no campo correspondente, porém ela deve clicar no botão **DECIFRAR** e logo abaixo vai aparecer a mensagem decifrada, seguindo assim para a próxima pista até o tesouro no final. 
 
-Para acessar a página [clique aqui](https://camilagerarde.github.io/SAP004-cipher/src/).
+Para acessar a página [clique aqui](https://camilagerarde.github.io/SAP004-cipher/src/). :computer:
 
 ### Sobre a página
 A página se chama **Quarentena dos Tesouros** em referência a situação de confinamento que a população do Brasil e muitos lugares no mundo vem passando, e se junta ao objetivo da aplicação que é uma ferramenta para uma brincadeira de caça ao tesouro com as crianças.
 
-A escolha das cores, visual, fonte e imagens fazem referência a video games e tem o objetivo de ser lúdico e atrativo para as crianças, sua usabilidade é simples e básica exatamente para que tantos as crianças como os adultos consigam acessar e utilizar a ferramenta sem dificuldades.
+A escolha das cores, visual, fonte e imagens fazem referência a video games :space_invader: e tem o objetivo de ser lúdico e atrativo para as crianças, sua usabilidade é simples e básica exatamente para que tantos as crianças como os adultos consigam acessar e utilizar a ferramenta sem dificuldades.
 
 ![tela-inicial](src/img/tela-pagina.png)
 
@@ -44,16 +44,19 @@ Por exemplo se usarmos o deslocamento (_chave_) de 3 posições:
 
 ## Considerações gerais
 
-A chave de codificação deve ser um número positivo.
-O deslocamento das letras é feito apenas com letras simples (maiúsculas ou minúsculas), símbolos, números e letras com acentuação não são codificadas, são repetidas em suas posições.
+- A chave de codificação deve ser um número positivo.
+- O deslocamento das letras é feito apenas com letras simples (maiúsculas ou minúsculas), símbolos, números e letras com acentuação não são codificadas, são repetidas em suas posições.
 
 ### Considerações técnicas
 
 **Para o desenvolvimento do projeto**
 
 O _HTML_ foi usado para estruturação do conteúdo da página, levando em consideração a utilização de tags semânticas e elementos de formulário.
+
 O _CSS_ foi usado para estilizar a página e definir o desenho visual.
+
 O _JavaScript_ foi usado para fazer a interação do usuário com a página utilizando elementos do DOM e fazer com que a aplicação responda (cifrar/decifrar).
+
 A lógica do projeto foi implementada inteiramente em _JavaScript_, usando funções e controle de fluxo.
 Também foi executado testes unitários para verificação da funcionalidade e padrão.
 Utilizado também Node.js, Git e GitHub.
