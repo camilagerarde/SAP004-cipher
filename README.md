@@ -7,7 +7,7 @@ Quarentena dos Tesouros nasceu de uma necessidade de distração e atividades pa
 ### Como utilizar:
 O usuário insere a pista no **campo de mensagem**, define o número de deslocamentos, e insere no **campo da chave**, clicando em **CIFRAR** a mensagem cifrada irá aparecer na caixa de texto logo abaixo, ele então poderá copiar a pista cifrada em um papel e como sugestão pode também juntar uma questão matemática para que a criança tenha que conseguir a chave para a decifragem, a criança então acessa a página e repete os passos anteriores, inserindo a pista cifrada no campo de mensagem e a chave no campo correspondente, porém ela deverá clicar no botão **DECIFRAR** e logo abaixo vai aparecer a mensagem decifrada, seguindo assim para a próxima pista até o tesouro no final.
 
-Para acessar a página [clique aqui](https://camilagerarde.github.io/SAP004-cipher/src/). :computer:
+#### Para acessar a página [clique aqui](https://camilagerarde.github.io/SAP004-cipher/src/). :computer:
 
 ### Sobre a página
 A página se chama **Quarentena dos Tesouros** em referência a situação de confinamento que a população brasileira e de muitos lugares no mundo vem passando e também ao objetivo da aplicação que é uma ferramenta para uma brincadeira de caça ao tesouro com as crianças.
