@@ -1,12 +1,11 @@
 const cipher = {
-  encode: encode,
-  decode: decode
+  encode,
+  decode
 };
 
-//Função de cifragem
-function encode (offset, message) {
+function encode(offset, message) {
   if (typeof message !== "string") {
-    throw new TypeError();
+    throw new TypeError("Insira a mensagem.");
   }
 
   let messageEncode = "";
@@ -25,10 +24,9 @@ function encode (offset, message) {
   return messageEncode;
 }
 
-//Função de decifragem
-function decode (offset, message) {
+function decode(offset, message) {
   if (typeof message !== "string") {
-    throw new TypeError();
+    throw new TypeError("Insira a mensagem.");
   }
   
   let messageDecode = "";

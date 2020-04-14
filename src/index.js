@@ -1,23 +1,17 @@
 import cipher from './cipher.js';
 
-//Botões
-const encode = document.getElementById("encodeButton");
-const decode = document.getElementById("decodeButton");
+const encode = document.getElementById("encodeButton").addEventListener("click", clickencode);
+const decode = document.getElementById("decodeButton").addEventListener("click", clickdecode);
 
-encode.addEventListener("click", clickencode);
-decode.addEventListener("click", clickdecode);
-
-//Função para devolução da mensagem
+function click(event, callback) {
+    event.preventDefault();
+    let message = document.getElementById("message").value;
+    let offset = Number(document.getElementById("key").value);
+    document.getElementById("finalMessage").innerHTML = callback(offset, message);
+}
 function clickencode() {
-    event.preventDefault();
-    let message = document.getElementById("message").value;
-    let offset = Number(document.getElementById("key").value);
-    document.getElementById("finalMessage").innerHTML = cipher.encode(offset, message);
+    click(event, cipher.encode);
 } 
-
 function clickdecode() {
-    event.preventDefault();
-    let message = document.getElementById("message").value;
-    let offset = Number(document.getElementById("key").value);
-    document.getElementById("finalMessage").innerHTML = cipher.decode(offset, message);
+    click(event, cipher.decode);
 }

@@ -5,36 +5,32 @@
 
 body {
     background-color: #1c94ba;
+    font-family: "Lucida Console", Monaco, monospace;
+    text-align: center;
 }
 
-.header {
+.header, .description {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #FFFFFF;
 }
 
 h1 {
     font-size: 63px;
-    color: #FFFFFF;
     font-family: 'FontGame' ;
     text-shadow: 4px 4px 4px black;
     margin: 50px auto;
-    text-align: center;
 }
 
 h2 {
-    font-size: 24px;
-    color: #FFFFFF;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 24px;    
     margin: auto;    
-    text-align: center;
 }
 
 p {
     width: 75%;
     font-size: 18px;
-    color: #FFFFFF;
-    font-family: "Lucida Console", Monaco, monospace;
     text-align: justify;
     margin-bottom: 40px;
     letter-spacing: 0.3px;
@@ -64,7 +60,6 @@ textarea {
     margin: 20px;
     padding: 15px;
     color: #484848;
-    font-family: "Lucida Console", Monaco, monospace;
     resize: none;
 }
 
@@ -72,7 +67,6 @@ input {
     border-radius:6px;
     text-align: center;
     font-size: 15px;
-    font-family: "Lucida Console", Monaco, monospace;
     width: auto;
     height: 30px;
     margin: 0px 0px 15px;
@@ -82,7 +76,6 @@ button {
     font-size: 18px;
     border-radius: 6px;
     color: #484848;
-    font-family: "Lucida Console", Monaco, monospace;
     margin: 4px;
 }
 
@@ -93,29 +86,18 @@ img {
     margin: auto 40px;
 }
 
-.imgTree {
-    align-self: flex-end;
-    margin-bottom: 0px;
-}
-
-.imgHouse {
+.imgTree, .imgHouse {
     align-self: flex-end;
     margin-bottom: 0px;
 }
 
 footer {
-    color: #DCDCDC		;
-    text-align: center;
+    color: #DCDCDC;
     margin: 100px auto auto;
-    font-family: "Lucida Console", Monaco, monospace;
     font-size: 15px;
 }
-
-a:link, a:visited {
-    color: #DCDCDC	;
-    text-decoration: underline;
-}
   
-a:link:active, a:visited:active {
-    color: #DCDCDC	;
+a:link, a:link:active, a:visited:active,  a:visited{
+    color: #DCDCDC;
+    text-decoration: underline;
 }
