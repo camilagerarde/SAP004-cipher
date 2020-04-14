@@ -74,8 +74,8 @@ Foi utilizado também _Node.js, Git e GitHub_.
    que inclue o [Git bash](https://git-scm.com/download/win), embora seja recomendado que você
    teste GNU/Linux.  
    Se tem  Windows 10 ou superior pode usar o [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-3. Instale as dependências do projeto rodando o comando `npm install`. Mas
-   antes disso tenha certeza de ter instalado o [Node.js](https://nodejs.org/)
+3. Instale as dependências do projeto rodando o comando `npm install`.  
+   Mas antes disso tenha certeza de ter instalado o [Node.js](https://nodejs.org/)
    (que inclui o [npm](https://docs.npmjs.com/)).
 4. Se tudo foi bem, você deve conseguir executar os testes unitários com o comando `npm test`.
 5. Para ver a interface da aplicação no navegador, use o comando `npm start`
