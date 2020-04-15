@@ -5,12 +5,12 @@ const cipher = {
 
 function encode(offset, message) {
   if (typeof message !== "string") {
-    throw new TypeError("Insira a mensagem.");
+    throw new TypeError("message undefined");
   }
 
   let messageEncode = "";
 
-  for (let i = 0; i < message.length; i++) {
+  for (let i in message) {
     if (message.charCodeAt(i) >= 65 && message.charCodeAt(i) <= 90){
       let upperCase = ((message.charCodeAt(i) - 65 + offset) % 26)+ 65;
       messageEncode += String.fromCharCode(upperCase);
@@ -26,12 +26,12 @@ function encode(offset, message) {
 
 function decode(offset, message) {
   if (typeof message !== "string") {
-    throw new TypeError("Insira a mensagem.");
+    throw new TypeError("message undefined");
   }
   
   let messageDecode = "";
 
-  for (let i = 0; i < message.length; i++) {
+  for (let i in message) {
     if (message.charCodeAt(i) >= 65 && message.charCodeAt(i) <= 90) {
       let upperCase = ((message.charCodeAt(i) - 90 - offset) % 26)+ 90;
       messageDecode += String.fromCharCode(upperCase);
