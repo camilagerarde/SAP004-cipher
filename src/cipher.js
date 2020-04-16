@@ -11,15 +11,16 @@ function encodeOrDecode(offset, message, num) {
 
   let finalMessage = "";
 
-  for (let i in message) {
-    if (message.charCodeAt(i) >= 65 && message.charCodeAt(i) <= 90) {
-      let upperCase = ((message.charCodeAt(i) - (65 + num) + offset) % 26) + 65 + num;
+  for (let letter of message) {
+    const letterCode = letter.charCodeAt()
+    if (letterCode >= 65 && letterCode <= 90) {
+      let upperCase = ((letterCode - (65 + num) + offset) % 26) + 65 + num;
       finalMessage += String.fromCharCode(upperCase);
-    } else if (message.charCodeAt(i) >= 97 && message.charCodeAt(i) <= 122) {
-      let lowerCase = ((message.charCodeAt(i) - (97 + num) + offset) % 26) + 97 + num;
+    } else if (letterCode >= 97 && letterCode <= 122) {
+      let lowerCase = ((letterCode - (97 + num) + offset) % 26) + 97 + num;
       finalMessage += String.fromCharCode(lowerCase);
     } else {
-      finalMessage += String.fromCharCode(message.charCodeAt(i));
+      finalMessage += String.fromCharCode(letterCode);
     }
   }
   return finalMessage;

@@ -11,7 +11,7 @@ function click(event, callback) {
 }
 
 function clickencode() {
-  click(event, cipher.encode);
+  click(event, cipher.encode); 
 }
 
 function clickdecode() {
