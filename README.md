@@ -59,7 +59,7 @@ O _JavaScript_ foi usado para fazer a interação do usuário com a página util
 A lógica do projeto foi implementada inteiramente em _JavaScript_, usando funções e controle de fluxo.
 
 Foi executado testes unitários para verificação da funcionalidade e o padrão foi verificado de acordo com as bibliotecas _eslint_ e _htmlhint_.  
-Foi utilizado também _Node.js, Git e GitHub_.
+Foi utilizado também _Git e GitHub_.
 
 **Instalação e execução**
 
