@@ -83,3 +83,4 @@ Foi utilizado também _Git e GitHub_.
    navegador.
 
 **Feito por [Camila Cunha](https://github.com/camilagerarde)**
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
