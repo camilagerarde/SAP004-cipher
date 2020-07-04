@@ -82,5 +82,5 @@ Foi utilizado também _Git e GitHub_.
    para iniciar o servidor web e entre na url `http://localhost:5000` no seu
    navegador.
 
-**Feito por [Camila Cunha](https://github.com/camilagerarde)**
+**Feito por [Camila Cunha](https://github.com/camilagerarde)**  
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
