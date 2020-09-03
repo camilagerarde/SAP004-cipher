@@ -1,18 +1,21 @@
-# Quarentena dos Tesouros  
+# Quarentena dos Tesouros
+
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)  
+[![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
 
 ## Projeto
 
 Quarentena dos Tesouros nasceu de uma necessidade de distração e atividades para pais ou responsáveis de crianças, que estão em situação de confinamento devido a pandemia do Covid-19, funciona como uma ferramenta para uma caça ao tesouro, onde as pistas são cifradas pelo método de Cifra de César, deixando a brincadeira ainda mais desafiadora.
 
 ### Como utilizar:
+
 O usuário insere a pista no **campo de mensagem**, define o número de deslocamentos, e insere no **campo da chave**, clicando em **CIFRAR** a mensagem cifrada irá aparecer na caixa de texto logo abaixo, ele então poderá copiar a pista cifrada em um papel e como sugestão pode também juntar uma questão matemática para que a criança tenha que conseguir a chave para a decifragem, a criança então acessa a página e repete os passos anteriores, inserindo a pista cifrada no campo de mensagem e a chave no campo correspondente, porém ela deverá clicar no botão **DECIFRAR** e logo abaixo vai aparecer a mensagem decifrada, seguindo assim para a próxima pista até o tesouro no final.
 
 #### Para acessar a página [clique aqui](https://camilagerarde.github.io/SAP004-cipher/src/). :computer:
 
 ### Sobre a página
+
 A página se chama **Quarentena dos Tesouros** em referência a situação de confinamento que a população brasileira e de muitos lugares no mundo vem passando e também ao objetivo da aplicação que é uma ferramenta para uma brincadeira de caça ao tesouro com as crianças.
 
 A escolha das cores, visual, fonte e imagens fazem referência a jogos de video games :space_invader: e tem o objetivo de ser lúdico e atrativo para as crianças, sua usabilidade é simples e básica exatamente para que tantos as crianças como os adultos consigam acessar e utilizar a ferramenta sem dificuldades.
@@ -21,9 +24,9 @@ A escolha das cores, visual, fonte e imagens fazem referência a jogos de video 
 
 A interface permite ao usuário:
 
-* Inserir uma mensagem (texto) para ser cifrada ou decifrada.
-* Eleger uma chave (número) indicando quantas posições de deslocamento de caracteres quer que a cifra utilize.
-* Ver o resultado da mensagem cifrada ou decifrada.
+- Inserir uma mensagem (texto) para ser cifrada ou decifrada.
+- Eleger uma chave (número) indicando quantas posições de deslocamento de caracteres quer que a cifra utilize.
+- Ver o resultado da mensagem cifrada ou decifrada.
 
 ### A Cifra de César
 
@@ -40,10 +43,10 @@ substituída por outra que se encontra há um número fixo de posições
 
 Por exemplo se usarmos o deslocamento (_chave_) de 3 posições:
 
-* Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto com cifra: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-* A letra A será D
-* A palavra CASA será FDVD
+- Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+- Alfabeto com cifra: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+- A letra A será D
+- A palavra CASA será FDVD
 
 ## Considerações gerais
 
@@ -71,12 +74,12 @@ Foi utilizado também _Git e GitHub_.
 2. Para executar os comandos você precisará de um UNIX Shell, que é um
    programa que interpreta linhas de comando (command-line interpreter) e também
    deve ter o git instalado.  
-   Se você usa um sistema operacional "UNIX-like", como GNU/Linux ou MacOS, 
-   você já tem um _shell_ (terminal) instalado (e provavelmente o `git` também). 
-   Se você usa Windows pode baixar a versão completa do [Cmder](https://cmder.net/) 
+   Se você usa um sistema operacional "UNIX-like", como GNU/Linux ou MacOS,
+   você já tem um _shell_ (terminal) instalado (e provavelmente o `git` também).
+   Se você usa Windows pode baixar a versão completa do [Cmder](https://cmder.net/)
    que inclue o [Git bash](https://git-scm.com/download/win), embora seja recomendado que você
    teste GNU/Linux.  
-   Se tem  Windows 10 ou superior pode usar o [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+   Se tem Windows 10 ou superior pode usar o [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 3. Instale as dependências do projeto rodando o comando `npm install`.  
    Mas antes disso tenha certeza de ter instalado o [Node.js](https://nodejs.org/)
    (que inclui o [npm](https://docs.npmjs.com/)).
@@ -87,3 +90,32 @@ Foi utilizado também _Git e GitHub_.
 
 **Feito por [Camila Cunha](https://github.com/camilagerarde)**  
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
+Fonte: Gameplay 1987
+<a
+          href="https://www.dafont.com/pt/paradox-fontworks.d5233?"
+          title="Geronimo"
+          target="_blank"
+          >Geronimo Font Studios</a
+        >
+Árvore:
+<a
+          href="https://www.flaticon.com/br/autores/monkik"
+          title="Monkik"
+          target="_blank"
+          >Monkik</a
+        >
+Casa:
+<a
+          href="https://www.flaticon.com/br/autores/freepik"
+          title="Freepik"
+          target="_blank"
+          >Freepik</a
+        >
+Favicon:
+<a
+          href="https://www.flaticon.com/br/autores/smashicons"
+          title="Smashicons"
+          target="_blank"
+          >Smashicons</a
+        >

@@ -1,108 +1,245 @@
 @font-face {
   font-family: 'FontGame';
-  src: url('fonte/Gameplay.ttf') format('truetype');
+  src: url('./assets/font/Gameplay.ttf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  outline: 0;
+  padding: 0;
 }
 
 body {
   background-color: #1c94ba;
-  font-family: "Lucida Console", Monaco, monospace;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
   text-align: center;
 }
 
 .header,
-.description {
+.description,
+.footer,
+.main,
+.form {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #FFFFFF;
 }
 
-h1 {
-  font-size: 63px;
+.header,
+.description,
+.form {
+  flex-direction: column;
+}
+
+.header,
+.description,
+.form,
+.footer {
+  align-items: center;
+}
+
+.main,
+.form {
+  justify-content: center;
+}
+
+.img img,
+.icon img {
+  height: auto;
+  width: auto;
+}
+
+.header h1 {
   font-family: 'FontGame';
-  text-shadow: 4px 4px 4px black;
-  margin: 50px auto;
+  font-size: 55px;
+  margin: 40px 10px 30px;
+  text-shadow: 4px 4px 4px #383838;
 }
 
-h2 {
+.header h2 {
   font-size: 24px;
-  margin: auto;
+  margin-bottom: 30px;
 }
 
-p {
-  width: 75%;
+.form {
+  background-color: #a0a0a0;
+  border: #777777 solid 3px;
+  width: 35%;
+}
+
+.form,
+.textarea {
+  border-radius: 13px;
+}
+
+.textarea {
   font-size: 18px;
-  text-align: justify;
-  margin-bottom: 40px;
-  letter-spacing: 0.3px;
-}
-
-.main {
-  display: flex;
-  justify-content: center;
-}
-
-form {
-  display: flex;
-  background-color: #808080;
-  border-radius: 7px;
-  border: #484848 groove 5px;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-textarea {
-  width: 400px;
   height: 100px;
-  border-radius: 6px;
-  font-size: 20px;
-  text-align: center;
   margin: 20px;
   padding: 15px;
-  color: #484848;
   resize: none;
+  width: 85%;
 }
 
-input {
-  border-radius: 6px;
+.textarea,
+.input {
+  background: #dadada79;
+  border: none;
+  color: #333333;
   text-align: center;
+  transition: ease background 100ms;
+}
+
+.textarea,
+.input,
+.btn {
+  font-family: 'open sans', sans-serif;
+}
+
+.input {
   font-size: 15px;
-  width: auto;
   height: 30px;
-  margin: 0px 0px 15px;
+  margin-bottom: 15px;
+  width: 40%;
 }
 
-button {
-  font-size: 18px;
-  border-radius: 6px;
-  color: #484848;
+.textarea:first-child:hover,
+.input:hover {
+  background: #fdfdfd94;
+}
+
+.input,
+.btn {
+  border-radius: 8px;
+}
+
+.btn {
+  background: #67a5b8;
+  border: #dadada79 solid 2px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
   margin: 4px;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  transition: ease scale 100ms;
 }
 
-img {
-  max-height: 200px;
-  width: auto;
-  height: auto;
-  margin: auto 40px;
+.btn:hover {
+  scale: 1.04;
 }
 
-.imgTree,
-.imgHouse {
+.img {
   align-self: flex-end;
-  margin-bottom: 0px;
 }
 
-footer {
-  color: #DCDCDC;
-  margin: 100px auto auto;
-  font-size: 15px;
+.img img {
+  margin: auto 40px;
+  max-height: 180px;
 }
 
-a:link,
+.description p {
+  background: #ffffff56;
+  border-radius: 14px;
+  font-size: 19px;
+  letter-spacing: 0.3px;
+  margin-top: 30px;
+  padding: 13px;
+  text-align: justify;
+  width: 75%;
+}
+
+.description p,
+.description a:link,
 a:link:active,
 a:visited:active,
 a:visited {
-  color: #DCDCDC;
+  color: #505050;
+}
+
+.description a:link,
+a:link:active,
+a:visited:active,
+a:visited {
+  text-decoration: none;
+}
+
+.description a:link:hover {
   text-decoration: underline;
+}
+
+.footer {
+  background: #ffffff25;
+  height: 55px;
+  justify-content: flex-end;
+  margin-top: 50px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.icon img {
+  margin-left: 10px;
+  max-height: 30px;
+}
+
+.icon img:hover {
+  margin-bottom: 3px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 1000px) {
+  .header h1 {
+    font-size: 50px;
+  }
+  .header h2,
+  .form,
+  .description p {
+    width: 60%;
+  }
+  .header h2 {
+    font-size: 23px;
+  }
+  .textarea {
+    font-size: 15px;
+    height: 80px;
+  }
+  .input {
+    font-size: 14px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .description p {
+    font-size: 17px;
+  }
+  .img img {
+    margin: auto 20px;
+    max-height: 100px;
+  }
+  .footer {
+    bottom: 0px;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header h1 {
+    font-size: 40px;
+  }
+  .header h2,
+  .form,
+  .description p {
+    width: 85%;
+  }
+  .img img {
+    display: none;
+  }
+  .footer {
+    position: relative;
+  }
 }

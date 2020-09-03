@@ -1,37 +1,45 @@
-const cipher = {
-  encodeOrDecode,
-  encode,
-  decode
+const ciphering = (letter, codeA, num, offset) => {
+  const lettersOfAlphabet = 26;
+  return ((letter - (codeA + num) + offset) % lettersOfAlphabet) + codeA + num;
 };
 
-function encodeOrDecode(offset, message, num) {
-  if (typeof message !== "string") {
-    throw new TypeError("message undefined");
+const encodeOrDecode = (offset, message, num) => {
+  if (typeof message !== 'string') {
+    throw new TypeError('message undefined');
   }
-
-  let finalMessage = "";
-
-  for (let letter of message) {
-    const letterCode = letter.charCodeAt()
-    if (letterCode >= 65 && letterCode <= 90) {
-      let upperCase = ((letterCode - (65 + num) + offset) % 26) + 65 + num;
+  let finalMessage = '';
+  for (const letter of message) {
+    const letterCode = letter.charCodeAt();
+    const codeUppercaseA = 65;
+    const codeUppercaseZ = 90;
+    const codeLowercaseA = 97;
+    const codeLowercaseZ = 122;
+    if (letterCode >= codeUppercaseA && letterCode <= codeUppercaseZ) {
+      const upperCase = ciphering(letterCode, codeUppercaseA, num, offset);
       finalMessage += String.fromCharCode(upperCase);
-    } else if (letterCode >= 97 && letterCode <= 122) {
-      let lowerCase = ((letterCode - (97 + num) + offset) % 26) + 97 + num;
+    } else if (letterCode >= codeLowercaseA && letterCode <= codeLowercaseZ) {
+      const lowerCase = ciphering(letterCode, codeLowercaseA, num, offset);
       finalMessage += String.fromCharCode(lowerCase);
     } else {
       finalMessage += String.fromCharCode(letterCode);
     }
   }
   return finalMessage;
-}
+};
 
-function encode(offset, message) {
-  return encodeOrDecode(offset, message, 0)
-}
+const encode = (offset, message) => {
+  return encodeOrDecode(offset, message, 0);
+};
 
-function decode(offset, message) {
-  return encodeOrDecode(-offset, message, 25)
-}
+const decode = (offset, message) => {
+  return encodeOrDecode(-offset, message, 25);
+};
+
+const cipher = {
+  ciphering,
+  encodeOrDecode,
+  encode,
+  decode,
+};
 
 export default cipher;
