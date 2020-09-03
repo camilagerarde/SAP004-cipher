@@ -6,8 +6,7 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "extends": ["airbnb"],
-
+  "extends": "eslint:recommended",
   "rules": {
     "no-console": "warn",
     "import/extensions": 0
