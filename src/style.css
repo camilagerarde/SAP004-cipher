@@ -221,10 +221,6 @@ a:visited {
     margin: auto 20px;
     max-height: 100px;
   }
-  .footer {
-    bottom: 0px;
-    position: absolute;
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -238,8 +234,5 @@ a:visited {
   }
   .img img {
     display: none;
-  }
-  .footer {
-    position: relative;
   }
 }
