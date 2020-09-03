@@ -1,56 +1,92 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <title>Quarentena dos tesouros</title>
-  <link rel="sortcut icon" href="img/mapa.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-
-  <header class="header">
-    <h1>Quarentena dos tesouros</h1>
-    <h2>Crie mensagens cifradas e brinque de caça ao tesouro com as crianças.</h2>
-  </header>
-
-  <section class="description"> 
-    <p>Insira as pistas no <strong>campo de mensagem</strong>, defina a <strong>chave</strong>
-      e clique em <strong>Cifrar</strong>, copie a mensagem cifrada em um papel, você também pode colocar um
-      desafio matemático para que as crianças descubram a chave necessária, acessam a página, insiram a
-      <strong>mensagem</strong> codificada, a <strong>chave</strong> e clicando em
-      <strong>Decifrar</strong> consigam visualizar a pista para a próxima dica.<br>
-      Essa aplicação utiliza o método da <a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar"
-        target="_blank">Cifra de César</a>
-    </p>
-  </section>
-
-  <main class="main">
-    <figure class="imgHouse"><img src="img/casa.png" alt="casa"></figure>
-    <form>
-      <textarea id="message" placeholder="Insira sua mensagem aqui"></textarea>
-      <input type="number" min="0" placeholder="Insira aqui a chave" id="key">
-      <div>
-        <button id="encodeButton">Cifrar</button>
-        <button id="decodeButton">Decifrar</button>
-      </div>
-      <textarea id="finalMessage" disabled></textarea>
-    </form>
-    <figure class="imgTree"><img src="img/arvore.png" alt="árvore"></figure>
-  </main>
-
-  <footer>
-    <h4>Feito por <a href="https://github.com/camilagerarde" title="Camila Cunha" target="_blank">Camila Cunha</a>
-      Fonte: Gameplay 1987 <a href="https://www.dafont.com/pt/paradox-fontworks.d5233?" title="Geronimo"
-        target="_blank">Geronimo Font Studios</a>
-      Árvore: <a href="https://www.flaticon.com/br/autores/monkik" title="Monkik" target="_blank">Monkik</a>
-      Casa: <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik" target="_blank">Freepik</a>
-      Favicon: <a href="https://www.flaticon.com/br/autores/smashicons" title="Smashicons"
-        target="_blank">Smashicons</a></h4>
-  </footer>
-
-  <script src="index.js" type="module"></script>
-</body>
-
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="sortcut icon"
+      href="./assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quarentena dos tesouros</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Quarentena dos tesouros</h1>
+      <h2>
+        Crie mensagens cifradas e brinque de caça ao tesouro com as crianças.
+      </h2>
+    </header>
+    <main class="main">
+      <figure class="img">
+        <img src="./assets/img/house.png" alt="Imagem casa" />
+      </figure>
+      <form class="form">
+        <textarea
+          class="textarea"
+          id="message"
+          placeholder="Insira a mensagem"
+        ></textarea>
+        <input
+          class="input"
+          type="number"
+          min="0"
+          placeholder="Insira a chave"
+          id="key"
+        />
+        <div>
+          <button id="encodeButton" class="btn">Cifrar</button>
+          <button id="decodeButton" class="btn">Decifrar</button>
+        </div>
+        <textarea id="finalMessage" class="textarea" disabled></textarea>
+      </form>
+      <figure class="img">
+        <img src="./assets/img/tree.png" alt="Imagem árvore" />
+      </figure>
+    </main>
+    <section class="description">
+      <p>
+        <span class="bold">Instruções:</span><br />
+        Insira as pistas no
+        <span class="bold">campo de mensagem</span>, defina a
+        <span class="bold">chave</span> e clique em
+        <span class="bold">Cifrar</span>, copie a mensagem cifrada em um papel,
+        você também pode colocar um desafio matemático para que as crianças
+        descubram a chave necessária, acessam a página, insiram a
+        <span class="bold">mensagem</span> codificada, a
+        <span class="bold">chave</span> e clicando em
+        <span>Decifrar</span> consigam visualizar a pista para a próxima
+        dica.<br />
+        Essa aplicação utiliza o método da
+        <a
+          href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar"
+          target="_blank"
+          >Cifra de César.</a
+        >
+      </p>
+    </section>
+    <footer class="footer">
+      <a
+        href="https://github.com/camilagerarde"
+        title="Acessar perfil do Github"
+        target="_blank"
+      >
+        <figure class="icon">
+          <img src="./assets/img/github.png" alt="Ícone Github" /></figure
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/camilagerarde/"
+        title="Acessar perfil do Linkedin"
+        target="_blank"
+        ><figure class="icon">
+          <img src="./assets/img/linkedin.png" alt="Ícone linkedin" /></figure
+      ></a>
+    </footer>
+    <script src="index.js" type="module"></script>
+  </body>
 </html>
