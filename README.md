@@ -69,24 +69,35 @@ Foi utilizado também _Git e GitHub_.
 
 ## Instalação e execução :octocat:
 
-1. [Clone](https://help.github.com/articles/cloning-a-repository/)
-   o _repositório_ para seu computador (cópia local).
-2. Para executar os comandos você precisará de um UNIX Shell, que é um
-   programa que interpreta linhas de comando (command-line interpreter) e também
-   deve ter o git instalado.  
-   Se você usa um sistema operacional "UNIX-like", como GNU/Linux ou MacOS,
-   você já tem um _shell_ (terminal) instalado (e provavelmente o `git` também).
-   Se você usa Windows pode baixar a versão completa do [Cmder](https://cmder.net/)
-   que inclue o [Git bash](https://git-scm.com/download/win), embora seja recomendado que você
-   teste GNU/Linux.  
-   Se tem Windows 10 ou superior pode usar o [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-3. Instale as dependências do projeto rodando o comando `npm install`.  
-   Mas antes disso tenha certeza de ter instalado o [Node.js](https://nodejs.org/)
-   (que inclui o [npm](https://docs.npmjs.com/)).
-4. Se tudo foi bem, você deve conseguir executar os testes unitários com o comando `npm test`.
-5. Para ver a interface da aplicação no navegador, use o comando `npm start`
-   para iniciar o servidor web e entre na url `http://localhost:5000` no seu
-   navegador.
+- Clone o projeto na sua máquina executando o seguinte comando no seu terminal:
+
+```sh
+git clone https://github.com/camilagerarde/SAP004-cipher
+```
+
+- Instale as dependências do projeto com o comando:
+
+```sh
+npm install
+```
+
+- Rode o projeto na sua máquina com:
+
+```sh
+npm start
+```
+
+- Visualize o projeto no seu navegador com o link:
+
+```sh
+http://localhost:5000
+```
+
+- Rode os testes com o comando:
+
+```sh
+npm test
+```
 
 ## Agradecimentos
 
