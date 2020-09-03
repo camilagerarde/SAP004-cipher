@@ -20,7 +20,7 @@ A página se chama **Quarentena dos Tesouros** em referência a situação de co
 
 A escolha das cores, visual, fonte e imagens fazem referência a jogos de video games :space_invader: e tem o objetivo de ser lúdico e atrativo para as crianças, sua usabilidade é simples e básica exatamente para que tantos as crianças como os adultos consigam acessar e utilizar a ferramenta sem dificuldades.
 
-![tela-inicial](src/assets/img/homepage.png)
+![homepage](src/assets/img/homepage3.png)
 
 A interface permite ao usuário:
 
