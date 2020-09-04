@@ -104,6 +104,6 @@ npm test
 Ícones: [Freepik](https://www.flaticon.com/br/autores/freepik), [Monkik](https://www.flaticon.com/br/autores/monkik) e [Smashicons](https://www.flaticon.com/br/autores/smashicons).  
 Fonte [Geronimo](https://www.dafont.com/pt/paradox-fontworks.d5233?)
 
-**Feito por [Camila Cunha](https://github.com/camilagerarde) com base no projeto da [Laboratória](https://github.com/Laboratoria).**
+**Projeto realizado por [Camila Cunha](https://github.com/camilagerarde) para o Bootcamp da [Laboratória](https://github.com/Laboratoria).**
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
