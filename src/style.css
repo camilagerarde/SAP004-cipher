@@ -84,7 +84,8 @@ body {
 
 .textarea,
 .input,
-.textarea:read-only {
+.textarea:read-only,
+.textarea::placeholder {
   color: #333333;
 }
 
