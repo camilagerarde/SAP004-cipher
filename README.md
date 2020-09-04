@@ -1,8 +1,8 @@
-# ![Quarentena dos Tesouros](https://fontmeme.com/permalink/200903/05c35199b3a8b3e7ffa9810467743b8e.png)
+# ![Quarentena dos Tesouros](./src/assets/img/logo.png)
 
 #### Para acessar a página [clique aqui](https://camilagerarde.github.io/SAP004-cipher/src/). :computer:
 
-[Introdução](#introdução) | [Como utilizar](#como-utilizar) | [Sobre a página](#sobre-a-página) | [A Cifra de César](#a-cifra-de-césar) | [Considerações gerais](#considerações-gerais) | [Considerações técnicas](#considerações-técnicas) | [Instalação e execução](#instalação-e-execução-octocat) | [Agradecimentos](#agradecimentos)
+[Introdução](#introdução) | [Sobre a página](#sobre-a-página) | [Considerações gerais](#considerações-gerais) | [Considerações técnicas](#considerações-técnicas) | [Instalação e execução](#instalação-e-execução-octocat) | [Agradecimentos](#agradecimentos)
 
 ---
 
@@ -10,7 +10,7 @@
 
 Quarentena dos Tesouros nasceu de uma necessidade de distração e atividades para pais ou responsáveis de crianças, que estão em situação de confinamento devido a pandemia do Covid-19, funciona como uma ferramenta para uma caça ao tesouro, onde as pistas são cifradas pelo método de Cifra de César, deixando a brincadeira ainda mais desafiadora.
 
-## Como utilizar
+### Como utilizar
 
 O usuário insere a pista no **campo de mensagem**, define o número de deslocamentos, e insere no **campo da chave**, clicando em **CIFRAR** a mensagem cifrada irá aparecer na caixa de texto logo abaixo, ele então poderá copiar a pista cifrada em um papel e como sugestão pode também juntar uma questão matemática para que a criança tenha que conseguir a chave para a decifragem, a criança então acessa a página e repete os passos anteriores, inserindo a pista cifrada no campo de mensagem e a chave no campo correspondente, porém ela deverá clicar no botão **DECIFRAR** e logo abaixo vai aparecer a mensagem decifrada, seguindo assim para a próxima pista até o tesouro no final.
 
@@ -28,7 +28,7 @@ A interface permite ao usuário:
 - Eleger uma chave (número) indicando quantas posições de deslocamento de caracteres quer que a cifra utilize.
 - Ver o resultado da mensagem cifrada ou decifrada.
 
-## A Cifra de César
+### A Cifra de César
 
 Cifrar significa codificar. A [cifra de
 César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos primeiros
@@ -51,7 +51,7 @@ Por exemplo se usarmos o deslocamento (_chave_) de 3 posições:
 ## Considerações gerais
 
 - A chave de codificação deve ser um número positivo.
-- O deslocamento das letras é feito apenas com letras simples (maiúsculas ou minúsculas); Símbolos, números e letras com acentuação não são deslocadas, são repetidas em suas posições.
+- O deslocamento das letras é feito apenas com letras simples (maiúsculas ou minúsculas), símbolos, números e letras com acentuação não são deslocadas, são repetidas em suas posições.
 
 ## Considerações técnicas
 
