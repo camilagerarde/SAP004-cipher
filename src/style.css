@@ -83,10 +83,15 @@ body {
 }
 
 .textarea,
+.input,
+.textarea:read-only {
+  color: #333333;
+}
+
+.textarea,
 .input {
   background: #dadada79;
   border: none;
-  color: #333333;
   text-align: center;
   transition: ease background 100ms;
 }
