@@ -2,6 +2,8 @@
 
 #### Para acessar a página [clique aqui](https://camilagerarde.github.io/SAP004-cipher/src/). :computer:
 
+## Índice
+
 [Introdução](#introdução) | [Sobre a página](#sobre-a-página) | [Considerações gerais](#considerações-gerais) | [Considerações técnicas](#considerações-técnicas) | [Instalação e execução](#instalação-e-execução-octocat) | [Agradecimentos](#agradecimentos)
 
 ---
